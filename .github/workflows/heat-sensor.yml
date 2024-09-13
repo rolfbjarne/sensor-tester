@@ -6,10 +6,10 @@ permissions:
   contents: read
 
 jobs:
-  autoformat-code:
+  detect-heat:
     name: Hot Topic Detector
     runs-on: ubuntu-latest
+    uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@main
 
     steps:
     - name: 'Find hot topics'
-      uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@main
