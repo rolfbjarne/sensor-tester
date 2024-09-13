@@ -1,0 +1,15 @@
+name: Heat sensor
+on: [ issues, pull_request ]
+
+# This action only need a single permission in order to autoformat the code.
+permissions:
+  contents: read
+
+jobs:
+  autoformat-code:
+    name: Hot Topic Detector
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 'Find hot topics'
+      uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@main
