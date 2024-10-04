@@ -8,6 +8,6 @@ permissions:
 
 jobs:
   detect-heat:
-    uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@b29f03896f56ce39d9dc58a49d61f45042951df7
+    uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@rolf/dev/ghactions
     with:
       sensitivity: "0.5"
