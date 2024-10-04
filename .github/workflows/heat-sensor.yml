@@ -9,4 +9,4 @@ jobs:
   detect-heat:
     name: Hot Topic Detector
     runs-on: ubuntu-latest
-    uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@main
+    uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@28252783d4cc06aac5f816a7e664ad2c1ba9a478
