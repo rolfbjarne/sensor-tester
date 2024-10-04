@@ -11,5 +11,5 @@ jobs:
     uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@rolf/dev/ghactions
     secrets: inherit
     with:
-      commentToAdd: "It's getting hot here!"
+      commentToPost: "It's getting hot here!"
       labelToAdd: "heat-detected"
