@@ -7,9 +7,6 @@ permissions:
   pull-requests: write
 
 jobs:
-  checkout-repo:
-    uses: actions/checkout@v4
-
   detect-heat:
     uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@rolf/dev/ghactions
     with:
