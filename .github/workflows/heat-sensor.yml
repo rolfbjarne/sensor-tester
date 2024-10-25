@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   detect-heat:
-    uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@rolf/dev/ghactions
+    uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@main
     secrets: inherit
     with:
       commentToPost: "It's getting hot here!"
